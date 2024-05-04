@@ -25,7 +25,8 @@
     "license" : "MIT",
     "name" : "webservco/http-response-service",
     "require": {
-        "php" : "^8.2"
+        "php" : "^8.2",
+        "fig/http-message-util": "^1"
     },
     "require-dev": {
         "pds/skeleton": "^1",
