@@ -15,9 +15,7 @@ final class StatusCodeService implements StatusCodeServiceInterface
     #[Override]
     public function getReasonPhraseByStatusCode(int $code): string
     {
-        $this->validateStatusCode($code);
-
-        return self::STATUS_CODES[$code];
+        return self::STATUS_CODES[$code] ?? throw new InvalidArgumentException('Invalid status code specified.');
     }
 
     #[Override]
