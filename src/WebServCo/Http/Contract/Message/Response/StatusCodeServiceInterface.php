@@ -11,7 +11,7 @@ use Fig\Http\Message\StatusCodeInterface;
  */
 interface StatusCodeServiceInterface extends StatusCodeInterface
 {
-    public const STATUS_CODES = [
+    public const array STATUS_CODES = [
         // Informational 1xx
         // 100
         self::STATUS_CONTINUE => 'Continue',
@@ -144,7 +144,7 @@ interface StatusCodeServiceInterface extends StatusCodeInterface
         self::STATUS_NETWORK_AUTHENTICATION_REQUIRED => 'Network Authentication Required',
     ];
 
-    public const REDIRECT_STATUS_CODES = [
+    public const array REDIRECT_STATUS_CODES = [
         // 302
         self::STATUS_FOUND => 'Moved Temporarily',
         // 301
