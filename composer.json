@@ -20,7 +20,7 @@
             "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
-    "description" : "A PHP component/library.",
+    "description" : "A PHP component/library. List of HTTP status codes, with a validator for them.",
     "homepage" : "https://webserv.co",
     "keywords" : [
         "component",
